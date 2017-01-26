@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+c = Course.create(name: 'chem-e2-a')
+l = Lab.create(name: 'orgo tues evening')
+TeachingAssistant.create(name: 'Estelle', ta_duty: c)
+TeachingAssistant.create(name: 'Matt', ta_duty: l)
+TeachingAssistant.create(name: 'Dan', ta_duty: l)
+TeachingAssistant.create(name: 'Tomas', ta_duty: c)
